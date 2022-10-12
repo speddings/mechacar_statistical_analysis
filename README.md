@@ -6,11 +6,12 @@ The purpose of this statistical analysis is to perform a multiple linear regress
 Software:
 * RStudio
 * R Script
-* Packages: tidyverse, dplyr, ggplot2
+* Packages: tidyverse, dplyr
 
 Data: 
 * MechaCar_mpg.csv
 * Suspension_Coil.csv
+
 ## 1. Linear Regression to Predict MPG
 The `MechaCar_mpg.csv` dataset used in the multiple linear regression, contains mpg test results for 50 prototype MechaCars. The dataset contains several metrics such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. 
 
@@ -50,10 +51,10 @@ ___T-Test for Lot 3___
 ![t-test-lot3](resources/images/ttest-lot3.png)
 
 ### Results 
-* The _T-Test for All Lots_ analysis shows the p-value is 0.06028 which is outside the signifigance level of 0.05,  therefor we should accept the null hypothesis. In other words, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500.
-* the _T-Test for Lot 1_ analysis actually has a true sample mean of 1500, as we saw in the summary statistics earlier. With a p-Value of 1, clearly we cannot reject (i.e. accept) the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean (1500).
-* The _T-Test for Lot 2_ analysis has essentially the same outcome as Lot 1,  with a sample mean of 1500.02 and a p-Value of 0.61. Therefore the null hypothesis cannot be rejected.
-* The _T-Test for Lot 3_ analysis however is a different scenario where the sample mean is 1496.14 and the p-Value is 0.04.  THis p-value is lower than the common significance level of 0.05, in which case the null hypothesis IS rejected.
+* The _T-Test for All Lots_ analysis shows the p-value is 0.06028 which is outside the signifigance level of 0.05,  therefor we should accept the null hypothesis. In other words, the mean of all three manufacturing lots is statistically similar to the presumed population mean of 1500.
+* The _T-Test for Lot 1_ analysis actually has a true sample mean of 1500, as we saw in the summary statistics earlier. With a p-Value of 1, clearly we cannot reject (i.e. accept) the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean (1500).
+* The _T-Test for Lot 2_ analysis has essentially the same outcome as Lot 1,  with a sample mean of 1500.02 and a p-value of 0.61. Therefore the null hypothesis cannot be rejected.
+* The _T-Test for Lot 3_ analysis however is a different scenario where the sample mean is 1496.14 and the p-value is 0.04.  This p-value is lower than the common significance level of 0.05, in which case the null hypothesis IS rejected.
 
 ## 4. Study Design: MechaCar vs Competition.
 To aid AutoRU improve their MechaCar prototype for maximum performance against the competition, the proposed statistical study compares the performace of several metrics for MechaCar and its competitors.
