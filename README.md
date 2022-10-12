@@ -71,7 +71,7 @@ To aid AutoRU improve their MechaCar prototype for maximum performance against t
 
 * _Alternative Hypothesis:_ There is a statistical difference between the horsepower and safety rating of the MechaCar prototype and competitors.
 ### __What statistical test would you use to test the hypothesis? And why?__
-* An ANOVA test that looks at the statistical differences between the means of three or more independent groups, would be a good start. The test would need one dependent variable, like MPG. The other variables like horsepower and safety rating would be the independent variable specifications in this test and would compare the metrics of the different vehicles including the MechaCar prototype.
+* An ANOVA test that looks at the statistical differences between the means of three or more independent groups would be a good start. The test would need one dependent variable, like MPG. The other variables like horsepower and safety rating would be the independent variable specs to compare the metrics of the different vehicles including the MechaCar prototype.
   
 ### __What data is needed to run the statistical test?__
-In order to run these statistical tests, we would need data that inlcudes cost, fuel efficiency, horsepower, and safety rating from both MechaCar as well as the MechaCar's competitors.
+In order to run these statistical tests, we would need data a minimum of horsepower and safety rating. Other variables like cost, fuel efficiency from both MechaCar as well as the MechaCar's competitors would allow for more hypotheses down the road.
